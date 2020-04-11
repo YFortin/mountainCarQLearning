@@ -3,7 +3,7 @@ import numpy as np
 
 # Define settings
 env = gym.make('MountainCar-v0')
-NUMBER_OF_ITERATIONS = 1000
+NUMBER_OF_ITERATIONS = 4000
 DISPLAY_EACH = 200
 GRANULARITY = 20
 LEARNING_RATE = 0.1
