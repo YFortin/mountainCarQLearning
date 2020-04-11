@@ -81,7 +81,6 @@ for iteration in range(NUMBER_OF_ITERATIONS):
 
         elif new_state[0] >= env.goal_position:
             q_values[current_state + (action,)] = -max_reward
-            print(f'iteration win: {iteration}')
             last_100_results.pop(0)
             last_100_results.append(True)
 
